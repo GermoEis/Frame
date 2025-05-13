@@ -173,18 +173,7 @@ footer {
 }
 
 .menu-list {
-    position: absolute;
-    right: -264px;
-    top: 0;
-    width: 264px;
-    height: 519px;
-    background-color: var(--primary-color-buttons);
-    font-size: 32px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 32px;
-    box-sizing: border-box;
-    transition: right 1s ease-in-out;
+    display: none;
 }
 
 .menu-list ul {
@@ -319,7 +308,7 @@ footer {
     }
 
     .frame {
-        display: none; /* Peidab frame'i */
+        display: none; 
     }
 
     hr {
